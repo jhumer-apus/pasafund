@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+    display: none;
+}
+
+input[type="text"] {
+    @apply text-black dark:text-white
+}
+select {
+    @apply text-black
+}
+
+textarea{
+    @apply text-black
+}
